@@ -5,7 +5,7 @@ jobs:
  Basic-Workflow:
   runs-on: ubuntu-latest
   steps:
-   - run: echo " Job is executing as part of Basic workflow
+   - run: echo " Job is executing as part of Basic workflow "
    - run: javac MyCalc.java
    - run: java MyCalc
    
